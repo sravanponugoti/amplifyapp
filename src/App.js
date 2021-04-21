@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Cloud Computing
+          Learn Amplify
         </a>
       </header>
     </div>
