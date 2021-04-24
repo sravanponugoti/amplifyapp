@@ -17,7 +17,7 @@ function App() {
           </div> */}
           <div className="content">
             <Switch>
-              <Route exact path="/" component={Home} />
+              <Route exact path="/" component={Login} />
               <Route path="/login" component={Login} />
               <Route path="/dashboard" component={Dashboard} />
               <Route path="/home" component={Home} />
