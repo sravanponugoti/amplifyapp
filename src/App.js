@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
  
 import Login from './Login';
-import Dashboard from './Dashboard';
 import Home from './Home';
  
 function App() {
@@ -19,7 +18,6 @@ function App() {
             <Switch>
               <Route exact path="/" component={Login} />
               <Route path="/login" component={Login} />
-              <Route path="/dashboard" component={Dashboard} />
               <Route path="/home" component={Home} />
             </Switch>
           </div>
