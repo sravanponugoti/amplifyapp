@@ -57,7 +57,7 @@ function Home(props) {
     }
 
     const addItem = async (item) => {
-        item.id = makeUniqueid(5);
+        item.id = makeUniqueid(6);
         await postItem(item);
     }
     const editItem = async (item) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, NavLink, Redirect } from 'react-router-dom';
  
 import Login from './Login';
 import Home from './Home';
@@ -16,7 +16,7 @@ function App() {
           </div> */}
           <div className="content">
             <Switch>
-              <Route exact path="/" component={Login} />
+              <Redirect exact path="/" to="login" />
               <Route path="/login" component={Login} />
               <Route path="/home" component={Home} />
             </Switch>
