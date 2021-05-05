@@ -38,7 +38,7 @@ function Login(props) {
  
   return (
     <div className="login-block">
-      <div className="title">Login Cloud computing</div>
+      <div className="title">Login to Restaurant</div>
       <br /><br />
       <div>
         Username<br />
